@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+#page1, #page2{
+    background-repeat:no-repeat ;
+    background-size: cover;
+   
+}
+
+/* this is page 1 */
+.page1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),url(pics/back3.png) ;
+    color: white;  
+}
+#h1{
+    margin: 0px;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.section1,.section2{
+    /* text-align: start; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.image1{
+    height: 200px;width: 400px;
+    border: none;
+    border-radius: 20px;
+    background-image: url(pics/breakfast-1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat ;
+    box-shadow: 0 0 2px white,
+                0 0 10px white,
+                0 0 20px white;
+}
+
+/* this is second page */
+.page2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),url(pics/back2.jpg) ;
+    color: white;  
+    padding-bottom: 100px;
+}
+/* this is section in 2 page */
+.sec1,.sec2,.sec3,.sec4,.sec5,.sec6{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    gap: 100px;
+    align-items:center;
+      
+}
+#page2 ul li{
+    list-style-position: inside;
+}
+
+/* this is images in 2 page */
+.sec11,.sec12,.sec21,.sec22,.sec31,.sec32,.sec41,.sec42,.sec51,.sec52,.sec61,.sec62{
+    height: 200px;width: 400px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 2px whitesmoke,
+                0 0 10px white,
+                0 0 20px white;    
+}
+#img{
+    height: 180px;width: 380px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.sec11,.sec22,.sec31,.sec42,.sec51,.sec62{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),url(pics/back2.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.sec12:hover,.sec21:hover,.sec32:hover,.sec41:hover,.sec52:hover,.sec61:hover{
+   transform: scale(1.2,1.2);
+}
+.sec12,.sec21,.sec32,.sec41,.sec52,.sec61{
+    background-color: whitesmoke;
+
+}
+
+/* this is page 3 */
+.page3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),url(pics/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    color: white;
+    padding-top: 30px;
+}
+.itempage{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+span{
+    font-size:100%;
+    color: green;
+}
+
+#gallaryimage{
+    height: 190px;width: 190px;
+    margin:5px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 2px white,
+                0 0 10px white;       
+}
+#Order{
+    height:fit-content;width: 140px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgb(255, 196, 0);
+    color:black;
+    font-size: 20px;
+    font-family: ui-serif;
+    border: none;
+    font-weight: bolder;
+}
+#Order:hover{
+    background-color:rgb(21, 255, 0);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 2px white,
+                0 0 10px white;
+}
+.page3 h1{
+    padding-bottom: 50px;
+    color: rgb(255, 190, 0);
+}
+#gallaryimage:hover{
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow:  0 0 2px whitesmoke,
+                 0 0 10px white;
+    transform: scale(1.2,1.14);
+}
+.page3 p{
+    font-size: 20px;
+}
